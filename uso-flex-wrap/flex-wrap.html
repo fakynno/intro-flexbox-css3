@@ -5,8 +5,48 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fundamentos - flex-wrap</title>
+
+    <style>
+        .flex-container{
+            display: flex;
+            height: 150px;
+            border: 2px solid black;
+            max-width: 300px;
+        }
+
+        .item{
+            font-size: 24px;
+            height: 50%;
+            text-align: center;
+            min-width: 100px;
+            line-height: 50px;
+        }
+
+        .nowrap{
+            flex-wrap: nowrap;
+        }
+
+        .blue{
+            background-color: aqua;
+        }
+
+        .green{
+            background-color: darkseagreen;
+        }
+
+        .orange{
+            background-color: coral;
+        }
+    </style>
 </head>
 <body>
-    
+    <h1>no wrap</h1>
+
+    <div class="flex-container">
+        <div class="item orange">1</div>
+        <div class="item green">2</div>
+        <div class="item blue">3</div>
+        <div class="item blue">4</div>                
+    </div>
 </body>
 </html>
