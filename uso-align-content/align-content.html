@@ -5,8 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fundamentos align content</title>
+    <style>
+        .container{
+            height: 400px;
+            max-width: 300px;
+            margin: 0 auto;
+            display: flex;
+            flex-wrap: wrap;
+            border: 1px solid black;
+        }
+
+        .item{
+            background-color: indianred;
+            padding: 0 5px;
+            margin: 5px;
+            flex: 1px;
+            text-align: center;
+            color: white;
+        }
+    </style>
 </head>
 <body>
-    
+    <h1>Stretch</h1>
+    <div class="container">
+        <div class="item">Lorem ipsum dolor sit amet, consectetur adipiscing</div>
+        <div class="item">Egestas quis ipsum suspendisse ultrices gravida.</div>
+        <div class="item">Ut venenatis tellus in metus vulputate eu. Purus in mollis nunc sed id semper risus in.</div>
+        <div class="item">Purus in massa tempor nec feugiat nisl.</div>
+        <div class="item">Mi sit amet mauris commodo</div>
+        <div class="item">Quisque egestas diam in arcu cursus euismod.</div>
+        <div class="item">Nunc aliquet bibendum enim.</div>
+    </div>
 </body>
 </html>
