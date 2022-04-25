@@ -7,9 +7,8 @@
     <title>Fundamentos align content</title>
     <style>
         .container{
-            height: 400px;
-            max-width: 300px;
-            margin: 0 auto;
+            height: 350px;
+            max-width: 300px;            
             display: flex;
             flex-wrap: wrap;
             border: 1px solid black;
@@ -23,11 +22,47 @@
             text-align: center;
             color: white;
         }
+
+        .stretch{
+            align-content: stretch;
+        }
+
+        .center{
+            align-content: center;
+        }
+
+        .flex-start{
+            align-content: flex-start;
+        }
     </style>
 </head>
 <body>
     <h1>Stretch</h1>
-    <div class="container">
+    <div class="container stretch">
+        <div class="item">Lorem ipsum dolor sit amet, consectetur adipiscing</div>
+        <div class="item">Egestas quis ipsum suspendisse ultrices gravida.</div>
+        <div class="item">Ut venenatis tellus in metus vulputate eu. Purus in mollis nunc sed id semper risus in.</div>
+        <div class="item">Purus in massa tempor nec feugiat nisl.</div>
+        <div class="item">Mi sit amet mauris commodo</div>
+        <div class="item">Quisque egestas diam in arcu cursus euismod.</div>
+        <div class="item">Nunc aliquet bibendum enim.</div>
+    </div>
+
+
+    <h1>Center</h1>
+    <div class="container center">
+        <div class="item">Lorem ipsum dolor sit amet, consectetur adipiscing</div>
+        <div class="item">Egestas quis ipsum suspendisse ultrices gravida.</div>
+        <div class="item">Ut venenatis tellus in metus vulputate eu. Purus in mollis nunc sed id semper risus in.</div>
+        <div class="item">Purus in massa tempor nec feugiat nisl.</div>
+        <div class="item">Mi sit amet mauris commodo</div>
+        <div class="item">Quisque egestas diam in arcu cursus euismod.</div>
+        <div class="item">Nunc aliquet bibendum enim.</div>
+    </div>
+
+
+    <h1>Flex start</h1>
+    <div class="container flex-start">
         <div class="item">Lorem ipsum dolor sit amet, consectetur adipiscing</div>
         <div class="item">Egestas quis ipsum suspendisse ultrices gravida.</div>
         <div class="item">Ut venenatis tellus in metus vulputate eu. Purus in mollis nunc sed id semper risus in.</div>
