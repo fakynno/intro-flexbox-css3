@@ -19,16 +19,44 @@
             margin: 5px;
             text-align: center;
             color: white;
+            margin-bottom: 10px;
+        }
+
+        .flex-start{
+            justify-content: flex-start;
+        }
+
+        .flex-end{
+            justify-content: flex-end;
+        }
+
+        .flex-center{
+            justify-content: center;
         }
     </style>
 </head>
 <body>
-    <section class="container">
+    <h1>flex start</h1>
+    <section class="container flex-start">
         <div class="item">primeiro item</div>
         <div class="item">item 2</div>
-        <div class="item">outro item - 3</div>
-        <div class="item">4</div>
-        <div class="item">último item - 5</div>
+        <div class="item">outro item - 3</div>        
     </section>
+
+    <h1>flex end</h1>
+    <section class="container flex-end">
+        <div class="item">primeiro item</div>
+        <div class="item">item 2</div>
+        <div class="item">outro item - 3</div>        
+    </section>
+
+    <h1>flex center</h1>
+    <section class="container flex-center">
+        <div class="item">primeiro item</div>
+        <div class="item">item 2</div>
+        <div class="item">outro item - 3</div>        
+    </section>
+
+
 </body>
 </html>
