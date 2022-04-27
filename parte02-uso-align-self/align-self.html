@@ -13,11 +13,16 @@
             display: flex;
         }
 
+        .align-container{
+            align-items: center;
+        }
+
         .item{
             background-color: olive;
             color: white;
             font-size: 24px;
             text-align: center;
+            margin: 5px;
         }
 
         .center{
@@ -47,5 +52,19 @@
 </head>
 <body>
     
+    <section class="flex-container align-container">
+        <div class="item auto">fabio aquino</div>
+        <div class="item auto">luiz</div>
+        <div class="item auto">andrea rocha</div>
+        <div class="item auto">pedro portinari</div>
+    </section>
+
+
+    <section class="flex-container">
+        <div class="item center">fabio</div>
+        <div class="item start">luiz</div>
+        <div class="item stretch">pedro portinari candido silva</div>
+        <div class="item end">andrea</div>
+    </section>
 </body>
 </html>
