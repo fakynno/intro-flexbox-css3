@@ -37,6 +37,10 @@
         .o4{
             order: 4;
         }
+
+        .direction{
+            flex-direction: column;
+        }
     </style>
 </head>
 <body>
@@ -62,6 +66,27 @@
 
     <h3>order: podemos definir</h3>
     <div class="flex-container">
+        <div class="item o1">1</div>
+        <div class="item o3">2</div>
+        <div class="item o1">3ma</div>
+        <div class="item o2">4b</div>
+        <div class="item o2">5cde</div>
+    </div>
+
+
+    <h2>Column</h2>
+    <h3>order: diferentes</h3>
+    <div class="flex-container direction">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3ma</div>
+        <div class="item">4b</div>
+        <div class="item">5cde</div>
+    </div>
+
+
+    <h3>order: podemos definir</h3>
+    <div class="flex-container direction">
         <div class="item o1">1</div>
         <div class="item o3">2</div>
         <div class="item o1">3ma</div>
