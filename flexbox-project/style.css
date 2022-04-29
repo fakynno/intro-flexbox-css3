@@ -76,5 +76,14 @@ header .menu{
 }
 
 #quem-somos{
-    flex-direction: row-reverse;
+    flex-direction: row-reverse;    
+    align-items: center;
+    justify-content: space-between;
 }
+
+#quem-somos h2{
+    font-size: 32px;
+    color: #122A57;
+    display: flex;
+}
+
