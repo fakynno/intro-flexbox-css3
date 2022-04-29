@@ -30,6 +30,9 @@ header{
 
 header .list-items{
     display: flex;
+    max-width: 260px;
+    width: 100%;
+    justify-content: space-between;
 }
 
 .list-items li a{
