@@ -115,3 +115,13 @@ header .menu{
     background-color: #122A57;
     width: 100%;
 }
+
+#servicos{
+    flex-direction: column;
+    padding: 100px;
+}
+
+.list-servicos{
+    display: flex;
+    justify-content: space-around;
+}
