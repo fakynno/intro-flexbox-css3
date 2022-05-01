@@ -172,6 +172,7 @@ header .menu{
 .list-planos{
     display: flex;
     align-items: flex-end;
+    justify-content: space-between;
 }
 
 .item-plano{
@@ -179,6 +180,7 @@ header .menu{
     border: 5px solid #122A57;
     margin-right: 20px;
     padding: 10px;
+    max-width: 240px;
 }
 
 .item-plano .btn{
