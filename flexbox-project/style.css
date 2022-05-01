@@ -182,8 +182,7 @@ header .menu{
 }
 
 .item-plano .btn{
-    margin: auto;
-    margin-top: 20px;
+    margin: auto;    
     margin-bottom: 20px;
 }
 
@@ -191,11 +190,14 @@ header .menu{
     font-size: 24px;
     display: flex;
     flex-direction: column;    
+    text-align: center;
 }
 
 .item-plano h3::after{
     content: "";
     background-color: #122A57;
-    width: 100px;
+    width: 100%;
     height: 3px;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
