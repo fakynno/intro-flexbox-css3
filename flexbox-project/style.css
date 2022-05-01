@@ -279,11 +279,13 @@ footer .footer{
     .list-planos{
         flex-direction: column;
         align-items: flex-start;
+        margin-bottom: 20px;
     }
 
     .list-planos .item-plano{
         max-width: 90%;
         margin: auto;
         width: 100%;
+        margin-bottom: 20px;
     }
 }
