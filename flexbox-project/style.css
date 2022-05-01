@@ -213,3 +213,11 @@ header .menu{
     flex-wrap: nowrap;
     align-items: center;
 }
+
+.item-plano ul li::before{
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color: #122A57;
+    margin-right: 5px;
+}
