@@ -213,6 +213,7 @@ header .menu{
     padding: 10px 20px;
     display: flex;
     flex-direction: column;
+    margin-bottom: 10px;
 }
 
 .item-plano ul li{
