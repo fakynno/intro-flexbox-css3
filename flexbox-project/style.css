@@ -66,7 +66,7 @@ header .menu{
     margin-bottom: 10px;
 }
 
-.texto-apresentacao a{
+.btn{
     background-color: #122A57;
     color: #fff;
     text-align: center;
@@ -178,4 +178,16 @@ header .menu{
     flex: 1;
     border: 5px solid #122A57;
     margin-right: 20px;
+}
+
+.item-plano .btn{
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.item-plano h3{
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;    
 }
