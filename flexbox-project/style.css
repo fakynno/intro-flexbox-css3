@@ -125,7 +125,7 @@ header .menu{
 #servicos h2{
     color: #fff;
     font-size: 32px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .list-servicos{
@@ -135,3 +135,13 @@ header .menu{
 
 .list-servicos .item-servico{
     text-align: center;
+}
+
+.item-servico a{
+    width: 120px;
+    background-color: #fff;
+    border-radius: 30px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+}
