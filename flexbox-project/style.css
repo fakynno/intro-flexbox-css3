@@ -191,6 +191,7 @@ header .menu{
     display: flex;
     flex-direction: column;    
     text-align: center;
+    margin-top: 20px;
 }
 
 .item-plano h3::after{
