@@ -169,6 +169,10 @@ header .menu{
     min-height: 100vh;
 }
 
+#planos h2{
+    font-size: 32px;
+}
+
 .list-planos{
     display: flex;
     align-items: flex-end;
