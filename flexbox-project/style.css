@@ -201,3 +201,15 @@ header .menu{
     margin-top: 20px;
     margin-bottom: 10px;
 }
+
+.item-plano ul{
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.item-plano ul li{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
