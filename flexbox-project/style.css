@@ -192,3 +192,10 @@ header .menu{
     display: flex;
     flex-direction: column;    
 }
+
+.item-plano h3::after{
+    content: "";
+    background-color: #122A57;
+    width: 100px;
+    height: 3px;
+}
